@@ -35,7 +35,7 @@ function Input() {
     <div className="bg-slate-900 md:h-screen h-full w-full flex items-center justify-center md:p-0 px-8 py-20">
       <form
         action=""
-        className="flex md:flex-row flex-col justify-center items-center gap-60"
+        className="flex md:flex-row flex-col justify-center items-center md:gap-60 gap-10"
         onSubmit={handleSubmit}
       >
         <div className="flex flex-1 flex-col justify-center items-center gap-5">
