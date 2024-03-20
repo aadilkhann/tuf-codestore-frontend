@@ -32,10 +32,10 @@ function Input() {
   };
 
   return (
-    <div className="bg-slate-900 h-screen w-full flex items-center justify-center">
+    <div className="bg-slate-900 md:h-screen h-full w-full flex items-center justify-center md:p-0 px-8 py-20">
       <form
         action=""
-        className="flex flex-row justify-center items-center gap-60"
+        className="flex md:flex-row flex-col justify-center items-center gap-60"
         onSubmit={handleSubmit}
       >
         <div className="flex flex-1 flex-col justify-center items-center gap-5">
@@ -96,6 +96,7 @@ function Input() {
             onChange={handleChange}
             rows={25}
             cols={90}
+            style={{ width: "100%", maxWidth: "600px" }} // Responsive width
           />
           <button
             className="border px-5 py-2 rounded-md text-white"
