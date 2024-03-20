@@ -32,7 +32,7 @@ function Input() {
   };
 
   return (
-    <div className="bg-slate-900 md:h-screen h-full w-full flex items-center justify-center md:p-0 px-8 py-20">
+    //<div className="bg-slate-900 md:h-screen h-full w-full flex items-center justify-center md:p-0 px-8 py-20">
       <div className="bg-slate-900 w-full flex items-center justify-center md:py-12 px-8 py-20">
       <form
         action=""
